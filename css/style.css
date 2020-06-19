@@ -239,11 +239,28 @@ body {
   background-color: #f8f8f8;
 }
 
-.contact-us .image {
+.contact-us .map {
   box-sizing: border-box;
   width: 45%;
   float: left;
-  margin: 65px auto;
+}
+
+.contact-us .map .mapouter {
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:600px;
+}
+
+.contact-us .map .gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:600px;
+}
+
+.contact-us .map .mapouter iframe {
+  height: 500px;
 }
 
 .contact-us .image img {width: 100%;}
